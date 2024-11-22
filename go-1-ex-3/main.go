@@ -16,5 +16,5 @@ func main() {
 	fmt.Fprintln(os.Stderr, "the dice was rolled at", when)
 
 	//Aufruf über Git Bash
-	//go run main.go > eyes.txt 2> dice.log
+	//go run ex3/main.go > eyes.txt 2> dice.log
 } 
