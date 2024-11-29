@@ -16,8 +16,8 @@ func main() {
 	student1 := Student{FirstName: "Marvin", LastName: "Hegi"}
 	student2 := Student{FirstName: "Nils", LastName: "Utiger"}
 	student3 := Student{FirstName: "Yannick", LastName: "Blatty"}
-	student4 := Student{FirstName: "Artur", LastName: "Fereitra Cruz"}
-	student5 := Student{FirstName: "Tobias", LastName: "Clauseni"}
+	student4 := Student{FirstName: "Artur", LastName: "Ferreitra Cruz"}
+	student5 := Student{FirstName: "Tobias", LastName: "Clausen"}
 
 	class1 := Class{Students: []Student{student1, student2, student3}}
 	class2 := Class{Students: []Student{student4, student5}}
