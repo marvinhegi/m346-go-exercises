@@ -13,7 +13,7 @@ func main() {
 	fmt.Println("Modul 346:", 346)
 
 	delete(modules, "Module 117")
-	modules["Module 111"] = 111
+	modules["Module 199"] = 199
 	modules["Module 346"] = 222
 
 	fmt.Println(modules)
