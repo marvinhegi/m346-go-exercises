@@ -28,7 +28,7 @@ func main() {
 		FullName:         FullName{"Marvin", "Hegi"},
 		BirthDate:        BirthDate{24, 12, 2007},
 		NumberOfSiblings: 0,
-		ZodiacSign:       'W',
+		ZodiacSign:       '\u2651',
 	}
 	fmt.Println(me)
 
