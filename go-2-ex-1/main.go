@@ -27,7 +27,7 @@ func main() {
 	var me = Profile{
 		FullName:         FullName{"Marvin", "Hegi"},
 		BirthDate:        BirthDate{24, 12, 2007},
-		NumberOfSiblings: 0,
+		NumberOfSiblings: 1,
 		ZodiacSign:       '\u2651',
 	}
 	fmt.Println(me)
