@@ -3,14 +3,18 @@ package main
 import "fmt"
 
 func main() {
-	// TODO: create a map called "modules"
+	modules := make(map[string]int)
+	modules["Module 104"] = 104
+	modules["Module 117"] = 117
+	modules["Module 346"] = 346
 
-	fmt.Println("Modul 104:", modules[104])
-	fmt.Println("Modul 117:", modules[117])
-	fmt.Println("Modul 346:", modules[346])
+	fmt.Println("Modul 104:", 104)
+	fmt.Println("Modul 117:", 117)
+	fmt.Println("Modul 346:", 346)
 
-	// TODO: delete one
-	// TODO: add one
-	// TODO: replace one
+	delete(modules, "Module 117")
+	modules["Module 111"] = 111
+	modules["Module 346"] = 222
+
 	fmt.Println(modules)
 }
