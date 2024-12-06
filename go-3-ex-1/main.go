@@ -91,11 +91,11 @@ func main() {
 
 
 	/* Zusatzaufgabe */
-	rick := Person{FullName{"Marvin", "Hegi"}, BirthDate{24, 12, 2007}}
-	edsger := Person{FullName{"Mascha", "Hegi"}, BirthDate{5, 8, 2010}}
-	alan := Person{FullName{"Nicole", "Hegi"}, BirthDate(9, 1, 1976}}
+	marvin := Person{FullName{"Marvin", "Hegi"}, BirthDate{24, 12, 2007}}
+	mascha := Person{FullName{"Mascha", "Hegi"}, BirthDate{5, 8, 2010}}
+	nicole := Person{FullName{"Nicole", "Hegi"}, BirthDate{9, 1, 1976}}
 
-	outputWithZodiacSign(rick)
-	outputWithZodiacSign(edsger)
-	outputWithZodiacSign(alan)
+	outputWithZodiacSign(marvin)
+	outputWithZodiacSign(mascha)
+	outputWithZodiacSign(nicole)
 }
