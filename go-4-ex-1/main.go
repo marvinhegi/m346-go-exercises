@@ -26,7 +26,7 @@ func main() {
 	if error1 != nil {
 		fmt.Println("Fehler:", error1)
 	} else {
-		fmt.Println("Note:", note1)
+		fmt.Println("Note:", note1)  // Note 5
 	}
 
 
@@ -35,15 +35,15 @@ func main() {
 	if error2 != nil {
 		fmt.Println("Fehler:", error2)
 	} else {
-		fmt.Println("Note:", note2)
+		fmt.Println("Note:", note2)   // Note 6
 	}
 
 
 	note3, error3 := berechneNote(-1.0, 10.0)
 	
 	if error3 != nil {
-		fmt.Println("Fehler:", error3)
+		fmt.Println("Fehler:", error3)  //error weil Punktzahl - ist
 	} else {
-		fmt.Println("Note:", note3)
+		fmt.Println("Note:", note3)  
 	}
 }
